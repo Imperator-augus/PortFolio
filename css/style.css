@@ -25,10 +25,13 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.section_overlay{
-	background: rgba(222, 247, 207, 0.4);
+#main_head {
+	height: 100vh;
 }
-h4 { font: optional; font-weight: 400; color: rgb(255, 255, 255); font-size: 30px;}
+.section_overlay{
+	background: rgba(221, 235, 213, 0.4);
+}
+h4 { font-weight: 400; color: rgb(255, 255, 255); font-size: 30px;}
 .home_text{
 	padding-top: 210px;
 	padding-bottom: 210px;
