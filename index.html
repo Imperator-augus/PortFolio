@@ -10,6 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="/path/to/typeit/source"></script>
     <!-- Font Awesome -->
 
 
@@ -27,8 +29,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
@@ -73,9 +73,9 @@
 	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                  <ul class="nav navbar-nav navbar-right">
 	                    <li><a href="#HOME">HOME</a></li>
-	                    <li><a href="#SERVICE">ABOUT</a></li>
-	                    <li><a href="#ABOUT">SKILLS</a></li>
-	                    <li><a href="#TESTIMONIAL">PROJECTS</a></li>
+	                    <li><a href="#ABOUT">ABOUT</a></li>
+	                    <li><a href="#SKILLS">SKILLS</a></li>
+	                    <li><a href="#PROJECTS">PROJECTS</a></li>
 	                    <li><a href="#CONTACT">CONTACT</a></li>
 	                  </ul>
 	                </div><!-- /.navbar-collapse -->
@@ -86,19 +86,32 @@
 	                <div class="row">
 	                    <div class="col-md-12 text-center">
 	                        <div class="home_text wow fadeInUp animated">
-	                            <h2 style="font-weight:bold; letter-spacing:1">Ye-chan enjoys coding</h2>
-	                            <h4>안녕하세요. 웹 개발자 김예찬입니다.</h4>
+	                            <h2 style="font-weight:bold; letter-spacing:1">Ye-chan Portfolio</h2>
+	                            <h4>2022</h4>
 	                            <img src="images/shape.png" alt="">                        
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
-
+                <div class="container">
+	                <div class="row">
+	                    <div class="col-md-12 text-center">
+                            <div class="typeIt">
+                                <span id="myElement"></span>
+                                <script>
+                                new TypeIt("#myElement", {
+                                    strings: "안녕하세요, 풀스택 개발자 김예찬입니다.",
+                                }).go();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
 	            <div class="container">
 	                <div class="row">
 	                    <div class="col-md-12 text-center">
 	                        <div class="scroll_down">
-                            <a href="#SERVICE"><img src="images/scroll.png" style="width:30px; padding-top: 30px;"></a>
+                            <a href="#ABOUT"><img src="images/scroll.png" style="width:30px; padding-top: 30px;"></a>
 	                            <h4>Scroll Down</h4>
 	                        </div>
 	                    </div>
@@ -108,41 +121,6 @@
 	    </section>         
     </header>
 
-
-    <section class="services" id="SERVICE">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
-                        <i class="icon-pencil"></i>
-                        <h2>Design</h2>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
-                        <i class="icon-gears"></i>
-                        <h2>Development</h2>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
-                        <i class="icon-camera"></i>
-                        <h2>Photography</h2>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
-                        <i class="icon-magnifying-glass"></i>
-                        <h2>Seo</h2>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-                    </div>
-                </div>
-            </div>            
-        </div>
-    </section>
     <section class="about_us_area" id="ABOUT">
         <div class="container">
             <div class="row">
@@ -155,7 +133,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row anoutMe">
                 <div class="col-md-4  wow fadeInLeft animated">
                     <div class="single_progress_bar">
                         <h2>DESIGN - 90%</h2>
@@ -191,7 +169,7 @@
                     </div>
                 </div>
                 <div class="col-md-4  wow fadeInRight animated">
-                    <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>
+                    <p class="about_us_p">ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>
                 </div>
                 <div class="col-md-4  wow fadeInRight animated">
                     <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
@@ -201,18 +179,28 @@
     </section>
     
 
-    <section class="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
+    <section class="testimonial text-center wow fadeInUp animated" id="SKILLS">
         <div class="container">
             <div class="icon">
                 <i class="icon-quote"></i>
             </div>
             <div class="owl-carousel">
                 <div class="single_testimonial text-center wow fadeInUp animated">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores<br/> 
+                        eos qui ratione voluptatem sequi nesciunt.<br/> 
+                        eos qui ratione voluptatem sequi nesciunt.<br/>
+                        modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
+                        modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
+                    </p>
                     <h4>-JOHN DOE</h4>
                 </div>
                 <div class="single_testimonial text-center">
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/>
+                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br/>
+                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
+                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
+                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
+                        </p>
                     <h4>-JOHN SMITH</h4>
                 </div>
             </div>            

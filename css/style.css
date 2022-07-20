@@ -1,5 +1,6 @@
 body{
 	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
 }
 p{
 	font-family: 'Montserrat', sans-serif;
@@ -21,29 +22,38 @@ text-transform: uppercase;
 	color: #f74d65;
 }
 header{
-	background: url(../images/header_bg.jpg);
+	/* url(../images/header_bg.jpg) */
+	background-color: #f9f9ff;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #main_head {
 	height: 100vh;
 }
-.section_overlay{
-	background: rgba(221, 235, 213, 0.4);
-}
-h4 { font-weight: 400; color: rgb(255, 255, 255); font-size: 30px;}
+/* .section_overlay{
+	background: rgba(230, 230, 230, 0.4);
+} */
+h4 { font-weight: 400; color: #e45447; font-size: 30px;}
 .home_text{
 	padding-top: 210px;
-	padding-bottom: 210px;
+	padding-bottom: 100px;
 }
 .home_text h2{
-	color: #030303;
+	font-family: "Poppins", sans-serif;
+	color: #000000;
 	font-size: 80px;
 	text-transform: uppercase;
-	letter-spacing: 13px;
+	letter-spacing: 8px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.typeIt {
+	color: #494846;
+	font-size: 40px;
+	padding-bottom: 120px;
 }
 .home_text p{
-	color: #404040;
+	color: #cca700;
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -98,11 +108,14 @@ background-color: #2d3334;
 }
 .single_progress_bar h2{
 	color: 000;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 400;
 }
+.aboutMe {
+	font-size: 20px;
+}
 .about_us_p{
-	font-size: 14px;
+	font-size: 14x;
 	color: #272727;
 	margin-top: 20px;
 	margin-bottom: 10px;
