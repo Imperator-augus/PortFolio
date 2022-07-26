@@ -115,11 +115,12 @@ background-color: #2d3334;
 	font-size: 20px;
 }
 .about_us_p{
-	font-size: 14x;
+	font-size: 1.8rem;
 	color: #272727;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	line-height: 21px;
+	line-height: 30px;
+	font-family: Noto Sans KR,sans-serif;
 }
 .about_title h2{
 	font-size: 25px;
