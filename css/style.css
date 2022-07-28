@@ -1,3 +1,4 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
@@ -11,8 +12,19 @@ a{
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
+	font-weight: 500;  
 }
-
+ul{
+	list-style: none;
+}
+li{
+	text-align: start;
+}
+.center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 /*Header*/
 .navbar-default .navbar-nav>li>a {
 color: #777;
@@ -38,14 +50,22 @@ h4 { font-weight: 400; color: #e45447; font-size: 30px;}
 	padding-top: 210px;
 	padding-bottom: 100px;
 }
-.home_text h2{
+/* .home_text h2{
 	font-family: "Poppins", sans-serif;
 	color: #000000;
 	font-size: 80px;
 	text-transform: uppercase;
-	letter-spacing: 8px;
+	letter-spacing: 1px;
 	font-weight: 400;
 	line-height: 1.5;
+} */
+.titleNm{
+	font-family: 'Lato', 'NanumSquare', sans-serif !important;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 80px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
 }
 .typeIt {
 	color: #494846;
@@ -109,7 +129,7 @@ background-color: #2d3334;
 .single_progress_bar h2{
 	color: 000;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 550;
 }
 .aboutMe {
 	font-size: 20px;
@@ -120,7 +140,7 @@ background-color: #2d3334;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	line-height: 30px;
-	font-family: Noto Sans KR,sans-serif;
+	font-family: 'Lato', 'NanumSquare', sans-serif !important;
 }
 .about_title h2{
 	font-size: 25px;
@@ -167,12 +187,11 @@ margin-left: -23px;
 
 }
 .single_testimonial p{
-color: #404040;
-font-size: 18px;
-font-family: 'Dosis', sans-serif;
-letter-spacing: 1px;
-padding-top: 110px;
-
+	color: #404040;
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 1px;
+	padding-top: 110px;
 }
 .single_testimonial h4{
 	color: #404040;
@@ -469,3 +488,31 @@ letter-spacing: 0px;
 	font-weight:700;
 	text-decoration:none;
 	}
+
+/* about me */
+.AboutMe {
+	margin-top: 110px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 30px;
+	justify-content: center;
+	text-align: center;
+}
+.AboutMe_icon-img{
+	width: 30px;
+	padding-bottom: 10px;
+}
+
+/* skills */
+.front_img{
+	height: 200px;
+	width: 80% !important;
+	padding: 20px 0px;
+}
+.fornt-skills{
+	align-self: flex-start;
+	margin-left: 10%;
+}
+.skills_ctnt{
+}

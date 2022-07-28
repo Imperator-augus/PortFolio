@@ -8,7 +8,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 700);
         return false;
       }
     } 
@@ -36,26 +36,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-$(document).ready(
-
-  function() { 
-
-    $("html").niceScroll({
-    	cursorcolor:"#f74d65",
-    	scrollspeed :"100",
-    	cursorborder:"1px solid #f74d65",
-    	horizrailenabled: "false",
-    	cursorborderradius: "0px"
-    });
-
-  }
-
-);
-
-new WOW().init();
-
-
-    
 /*Preloader*/
 //<![CDATA[
 $(window).load(function() { // makes sure the whole site is loaded
