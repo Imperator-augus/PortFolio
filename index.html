@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +22,6 @@
 
      <!-- Preloader -->
     <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
-
-    <!-- Icon Font-->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
 
     <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
@@ -220,36 +222,39 @@
 
     <section class="testimonial text-center fadeInUp " id="SKILLS">
         <div class="container">
-            <h2 class="title">SKILLS</h2>
-            <div class="owl-carousel">
-                <div class="single_testimonial center fadeInUp ">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
                     <img class="front_img" src="img/front.png">
-                    <div class="skills_front">
-                        <ul class="fornt-skills">
-                            <li class="skills_title"><strong>HTML</strong></li>
-                            <li class="skills_title"><strong>CSS</strong></li>
-                            <li class="skills_title"><strong>JAVASCRIPT</strong></li>
-                            <li class="skills_title"><strong>VUE.JS</strong></li>
-                        </ul>
-                        <ul class="fornt-skills">
-                            <li class="skills_ctnt"><sapn>시멘틱 태그를 사용하고 적재적소에 필요한태그 배치가능</sapn></li>
-                            <li class="skills_ctnt"><span></span></li>
-                            <li class="skills_ctnt"><span></span></li>
-                            <li class="skills_ctnt"><span></span></li>
-                        </ul>
-                    </div>
-                    <h4>FRONT-END</h4>
+                    <ul class="fornt-skills">
+                        <li class="skills_title"><strong>HTML</strong></li>
+                        <li class="skills_title"><strong>CSS</strong></li>
+                        <li class="skills_title"><strong>JAVASCRIPT</strong></li>
+                        <li class="skills_title"><strong>VUE.JS</strong></li>
+                    </ul>
+                    <ul class="fornt-skills">
+                        <li class="skills_ctnt"><sapn>시멘틱 태그를 사용하고 적재적소에 필요한태그 배치가능</sapn></li>
+                        <li class="skills_ctnt"><span></span></li>
+                        <li class="skills_ctnt"><span></span></li>
+                        <li class="skills_ctnt"><span></span></li>
+                    </ul>
+                    Slide 1
+                  </div>
+                  <div class="swiper-slide">
+                    Slide 2</div>
+                  <div class="swiper-slide">Slide 3
+
+                  </div>
+                  <div class="swiper-slide">
+                    Slide 4
+                  </div>
                 </div>
-                <div class="single_testimonial text-center">
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius<br/>
-                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br/>
-                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
-                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
-                         modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptate<br/>
-                        </p>
-                    <h4>-JOHN SMITH</h4>
-                </div>
-            </div>            
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+              </div>      
         </div>
     </section>
 
@@ -507,14 +512,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nicescroll.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/wow.js"></script>
     <script src="js/script.js"></script>
-
-
-
-
 </body>
 
 </html>
