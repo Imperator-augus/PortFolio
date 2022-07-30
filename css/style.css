@@ -23,6 +23,7 @@ li{
 .swiper {
 	width: 1000px;
 	height: 600px;
+	margin-bottom: 100px;
   }
 .center{
 	display: flex;
