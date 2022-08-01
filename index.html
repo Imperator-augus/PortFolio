@@ -6,6 +6,11 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
+<!-- scroll animation -->
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <meta charset="utf-8">
@@ -27,14 +32,17 @@
      <!-- Preloader -->
     <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
 
-    <!-- Animate CSS-->
-    <link rel="stylesheet" href="css/animate.css">
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 
 <body>
@@ -63,7 +71,7 @@
 	            <div class="container">
 	                <div class="row">
 	                    <div class="col-md-12 text-center">
-	                        <div class="home_text fadeInUp animated">
+	                        <div class="home_text animate__animated animate__fadeInUp">
 	                            <h2 class="titleNm">Ye-chan Portfolio</h2>
 	                            <h4>2022</h4>
 	                            <img src="images/shape.png" alt="">                        
@@ -343,7 +351,7 @@
 	                        </div>
 	                    </div>
 	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
-	                        <div class="imac">
+	                        <div class="imac animate__animated animate__backInRight wow" >
 	                            <img src="images/imac.png" alt="">
 	                        </div>
 	                    </div>
@@ -371,6 +379,9 @@
                         <img src="images/w1.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
+                            <h2>asdf</h2>
+                            <h2>asdfg</h2>
+                            <h2>drawing</h2>
                             <h2>drawing</h2>
                             <h4>with pencil colors</h4>
                         </div>
@@ -566,6 +577,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/jquery.fadethis.min.js"></script>
+    <script>$(window).fadeThis();</script>
 </body>
 
 </html>

@@ -30,6 +30,7 @@ li{
 	flex-direction: column;
 	align-items: center;
 }
+
 /*Header*/
 .navbar-default .navbar-nav>li>a {
 color: #777;
