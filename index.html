@@ -62,7 +62,7 @@ new WOW().init();
 	                    <li><a href="#ABOUT">ABOUT</a></li>
 	                    <li><a href="#SKILLS">SKILLS</a></li>
 	                    <li><a href="#PROJECTS">PROJECTS</a></li>
-	                    <li><a href="#CONTACT">CONTACT</a></li>
+	                    <li><a href="#CODING">CODING</a></li>
 	                  </ul>
 	                </div>
 	              </div><!-- /.container -->
@@ -73,7 +73,7 @@ new WOW().init();
 	                    <div class="col-md-12 text-center">
 	                        <div class="home_text animate__animated animate__fadeInUp">
 	                            <h2 class="titleNm">Ye-chan Portfolio</h2>
-	                            <h4>2022</h4>
+	                            <h4 class="oringe">2022</h4>
 	                            <img src="images/shape.png" alt="">                        
 	                        </div>
 	                    </div>
@@ -111,16 +111,16 @@ new WOW().init();
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="about_title">
+                    <div class="about_title wow animate__animated animate__fadeInUp">
                         <h2 class="title">About Me</h2>
                         <img src="images/shape.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container  wow animate__animated animate__fadeIn">
             <div class="row anoutMe">
-                <div class="col-md-4  wow fadeInLeft animated">
+                <div class="col-md-4">
                     <div class="single_progress_bar">
                         <h2>성실성 - 90%</h2>
                         <div class="progress">
@@ -234,8 +234,11 @@ new WOW().init();
 
     <section class="testimonial text-center fadeInUp " id="SKILLS">
         <div class="container">
-            <h2 class="title">SKILLS</h2>
-            <div class="swiper">
+            <div class="wow animate__animated animate__fadeInUp">
+                <h2 class="title">SKILLS</h2>
+                <img src="images/shape.png" alt="">
+            </div>
+                <div class="swiper wow animate__animated animate__fadeIn">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <!-- Slides -->
@@ -275,7 +278,7 @@ new WOW().init();
                         </ul>
                         <ul class="fornt-skills2">
                             <li class="skills_ctnt">
-                                <div>게시판 구현 | DB와 연동하여 로그인,로그아웃</div>
+                                <div>CRUD가 들어간 게시판 구현 | DB와 연동하여 로그인,로그아웃</div>
                             </li>
                             <li class="skills_ctnt">
                                 <div>Query Bulilder사용 | MVC패턴 사용하여 CRUD 가능</div>
@@ -318,41 +321,50 @@ new WOW().init();
               </div>      
         </div>
     </section>
-
-
+    <section class="testimonial1 text-center" id="PROJECTS">
+        <div class="container">
+            <div class="project wow animate__animated animate__fadeInUp">
+                <h1>project</h1> 
+                <img src="images/shape.png" alt="">
+            </div>
+        </div>
+    </section>
     <div class="fun_facts">
     	<section class="header parallax home-parallax page" id="fun_facts" style="background-position: 50% -150px;">
 	        <div class="section_overlay">
 	            <div class="container">
 	                <div class="row">
-	                    <div class="col-md-6 wow fadeInLeft animated">
+	                    <div class="col-md-6 wow animate__animated animate__fadeInLeft">
 	                        <div class="row">
 	                            <div class="col-md-4">
 	                                <div class="single_count">
-	                                    <i class="icon-toolbox"></i>
-	                                    <h3>300</h3>
-	                                    <p>Project Done</p>
+	                                    <h4>개발인원</h4>
+	                                    <p>4명</p>
 	                                </div>
 	                            </div>
 	                            <div class="col-md-4">
 	                                <div class="single_count">
-	                                    <i class="icon-clock"></i>
-	                                    <h3>1700+</h3>
-                                        <p>Hours Worked</p>
+	                                    <h4>개발기간</h4>
+                                        <p>2022.05.03 ~ 2022.05.18</p>
+                                        <p>(약 2주 소요)</p>
 	                                </div>                            
 	                            </div>
 	                            <div class="col-md-4">
 	                                <div class="single_count">
-	                                    <i class="icon-trophy"></i>
-	                                    <h3>37</h3>
-	                                    <p>Awards Won</p>
+	                                    <h4>맡은부분</h4>
+	                                    <p>관리자 로그인</p>
+	                                    <p>디테일 화면구현</p>
+	                                    <p>프로필 수정화면</p>
+	                                    <p>레시피 업로드 구현
+                                        </p>
 	                                </div>                            
 	                            </div>
 	                        </div>
 	                    </div>
-	                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
-	                        <div class="imac animate__animated animate__backInRight wow" >
-	                            <img src="images/imac.png" alt="">
+	                    <div class="col-md-5 col-md-offset-1">
+	                        <div class="imac animate__animated animate__fadeInRight wow" >
+	                            <img class="pro_img" src="images/imac.png" alt="">
+                                <div class="hover"><a href="https://www.youtube.com/?gl=KR&hl=ko">View Full Project</a></div>
 	                        </div>
 	                    </div>
 	                </div>
@@ -360,14 +372,13 @@ new WOW().init();
 	        </div>
 	    </section>    
     </div>
-    <section class="work_area" id="PROJECTS">
+    <section class="work_area" id="CODING">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="work_title  wow fadeInUp animated">
-                        <h1>Latest Works</h1>
+                        <h1>CLONE CODING</h1>
                         <img src="images/shape.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
                     </div>
                 </div>
             </div>
@@ -376,14 +387,11 @@ new WOW().init();
             <div class="row">
                 <div class="col-md-4 no_padding">
                     <div class="single_image">
-                        <img src="images/w1.jpg" alt="">
+                        <img src="img/vue-movie.png" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>asdf</h2>
-                            <h2>asdfg</h2>
-                            <h2>drawing</h2>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>Vue-Movie-Pjt</h2>
+                            <h4>vue.js</h4>
                         </div>
                     </div>
                 </div>
@@ -392,8 +400,8 @@ new WOW().init();
                         <img src="images/w2.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>Vue-Todo-Pjt</h2>
+                            <h4>vue.js</h4>
                         </div>                        
                     </div>
                 </div>
@@ -402,8 +410,8 @@ new WOW().init();
                         <img src="images/w3.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>Vue-Shop-Pjt</h2>
+                            <h4>vue.js, vuex</h4>
                         </div>                        
                     </div>
                 </div>
@@ -414,8 +422,8 @@ new WOW().init();
                         <img src="images/w4.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>Board</h2>
+                            <h4>PHP</h4>
                         </div>                        
                     </div>
                 </div>
@@ -424,8 +432,8 @@ new WOW().init();
                         <img src="images/w5.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>PHPGram</h2>
+                            <h4>PHP, MVC패턴</h4>
                         </div>                        
                     </div>
                 </div>
@@ -434,8 +442,8 @@ new WOW().init();
                         <img src="images/w6.jpg" alt="">
                         <div class="image_overlay">
                             <a href="">View Full Project</a>
-                            <h2>drawing</h2>
-                            <h4>with pencil colors</h4>
+                            <h2>Laravel</h2>
+                            <h4>PHP, Laravel</h4>
                         </div>                        
                     </div>
                 </div>
@@ -577,9 +585,6 @@ new WOW().init();
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="jquery.js"></script>
-    <script src="js/jquery.fadethis.min.js"></script>
-    <script>$(window).fadeThis();</script>
 </body>
 
 </html>
