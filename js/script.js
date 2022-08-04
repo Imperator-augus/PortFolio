@@ -50,6 +50,17 @@ const swiper = new Swiper('.swiper', {
   }
 });
 
+window.addEventListener('scroll', () => {
+	let scrollLocation = document.documentElement.scrollTop; // 현재 스크롤바 위치
+	if(scrollLocation >= 1056){
+    let head = document.querySelector('.head');
+    head.classList.add('bgw');
+	} else {
+    let head = document.querySelector('.head');
+    head.classList.remove('bgw');
+  }
+});
+
 
 
 

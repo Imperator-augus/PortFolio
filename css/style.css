@@ -10,6 +10,7 @@ a{
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 	color: #fff;
+	cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
@@ -31,7 +32,9 @@ li{
 	flex-direction: column;
 	align-items: center;
 }
-
+.bgw{
+	background-color: #fff !important;
+}
 /*Header*/
 .navbar-default{
 	background-color: #fff;
@@ -42,6 +45,10 @@ text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
+}
+.navbar-fixed-top{
+	border: none;
+	background: none;
 }
 header{
 	/* url(../images/header_bg.jpg) */
@@ -56,7 +63,8 @@ header{
 .section_overlay{
 	padding-bottom: 170px;
 	box-sizing: content-box;
-
+	background: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MDlfMjY5%2FMDAxNjU3MzcyNjQwMDU2.lFgnc0J0HrD6i1t9V0HBHvjHWdwGImCPl4n5Hx__uZEg.T98baZfxfDyRp__xVnkeVJqj9bO5sN8sN2T9RnDo7MAg.JPEG.silkgil%2Fvladimir-anikeev-IM8ZyYaSW6g-unsplash.jpeg&type=sc960_832) no-repeat;
+	background-size: cover;
 }
 h4 { font-weight: 400; font-size: 30px;}
 .home_text{
@@ -496,7 +504,7 @@ footer{
 .footer_logo{}
 .footer_logo img{}
 .social{
-	padding-top: 65px;
+	padding-top: 35px;
 }
 .social h2{
 text-transform: uppercase;
@@ -531,7 +539,7 @@ ul.icon_list li a:hover{
 	border-color:#f73b56; 
 }
 .copyright_text{
-padding-top: 80px;	
+padding-top: 30px;	
 }
 .copyright_text p{
 color: #636363;
@@ -584,4 +592,19 @@ letter-spacing: 0px;
 }
 .swiper-pagination {
 	padding-top: 20px;
+}
+
+/* mini project */
+.work_area {
+	margin-bottom: 80px;
+}
+.link{
+ 	padding: 0px 10px;
+}
+
+/* footer */
+footer {
+	background-color: #b1afaf;
+	height: 200px;
+	padding: 0;
 }
