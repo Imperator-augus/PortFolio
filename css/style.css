@@ -1,4 +1,6 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
@@ -82,7 +84,8 @@ h4 { font-weight: 400; font-size: 30px;}
 	line-height: 1.5;
 } */
 .titleNm{
-	font-family: 'Lato', 'NanumSquare', sans-serif !important;
+	/* font-family: 'Lato', 'NanumSquare', sans-serif !important; */
+	font-family: 'Source Code Pro', monospace;
 	letter-spacing: 1px;
 	font-weight: bold;
 	font-size: 80px;
