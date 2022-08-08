@@ -1,6 +1,5 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Code+Pro&display=swap');
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
