@@ -1,5 +1,5 @@
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Code+Pro&family=Sunflower&display=swap');
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
@@ -37,6 +37,18 @@ li{
 	background-color: #fff !important;
 }
 /*Header*/
+.yc{
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(71, 70, 70);
+}
+.portfolio{
+	font-style: italic;
+	color: #797878;
+	font-weight: 600;
+	padding-left: 2px;
+}
 .navbar-default{
 	background-color: #fff;
 }
@@ -116,32 +128,10 @@ h4 { font-weight: 400; font-size: 30px;}
 	padding-bottom: 120px;
 }
 
-/*Services*/
-.services{
-	padding-top: 96px;
+/*skillls bar*/
 
-}
-.services .container{
-	border-bottom: 1px solid #ddd;
-}
-.single_service{
-	padding-bottom: 96px;
-}
-.single_service i{
-	font-size: 25px;
-	color: #f73b56;
-}
-.single_service h2{
-	color: #000000;
-	font-size: 25px;
-	text-transform: uppercase;
-}
-.single_service p{
-	color: #404040;
-	font-size: 14px;
-}
 .single_progress_bar .progress {
-height: 1px;
+height: 3px;
 margin-bottom: 20px;
 overflow: hidden;
 background-color: #d5d5d5;
@@ -150,15 +140,36 @@ border-radius: 0px;
 box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 }
 .single_progress_bar .progress-bar {
-background-color: #2d3334;
+	background-color: #2d3334;
 }
 .single_progress_bar h2{
 	color: 000;
 	font-size: 20px;
 	font-weight: 550;
 }
+.progress .progress-bar-brown{	
+	background-color: rgba(167, 104, 52, 0.808);
+}
+.progress .progress-bar-orange{	
+	background-color: rgb(248, 107, 51);
+}
+.progress .progress-bar-black{	
+	background-color: rgb(37, 37, 37);
+} 
+.progress .progress-bar-sblack{	
+	background-color: rgb(56, 56, 56);
+} 
+/* 어바웃미 */
+.IdPoto{
+	height: 200px;
+	border-radius: 45px;
+	box-shadow: 5px 5px 15px rgb(65, 64, 64);
+	margin-left: 120px;
+	margin-top: 25px;
+}
 .aboutMe {
 	font-size: 20px;
+	margin-right: 50px;
 }
 .about_us_p{
 	font-size: 1.8rem;
@@ -249,6 +260,11 @@ margin-left: -23px;
 }
 .project img, .contact_title img{
 	margin-bottom: 30px;
+}
+.pro_link{
+	position: relative;
+	right: -390px;
+	top: -130px;
 }
 .fun_facts{
 	background: url(../images/header_bg.jpg);
@@ -500,8 +516,9 @@ padding-top: 10px;
 
 /*Footer*/
 footer{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: #a7a4a42f;
+	height: 200px;
+	padding: 0;
 }
 .footer_logo{}
 .footer_logo img{}
@@ -579,7 +596,11 @@ letter-spacing: 0px;
 	padding: 20px 0px;
 }
 .skills_front{
-	display: flex;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	width: 800px;
+	justify-content: center;
+	margin: auto;
 }
 .fornt-skills1{
 	margin-left: 10%;
@@ -588,8 +609,11 @@ letter-spacing: 0px;
 .skills_title{
 	padding: 20px 0 20px 0;
 }
+.fornt-skills2{
+	margin-top: 7px;
+}
 .skills_ctnt{
-	padding: 20px;
+	padding: 15px;
 	font-weight: 500;
 }
 .swiper-pagination {
@@ -602,11 +626,4 @@ letter-spacing: 0px;
 }
 .link{
  	padding: 0px 10px;
-}
-
-/* footer */
-footer {
-	background-color: #b1afaf;
-	height: 200px;
-	padding: 0;
 }
