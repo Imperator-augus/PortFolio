@@ -265,9 +265,14 @@ margin-left: -23px;
 	position: relative;
 	right: -390px;
 	top: -130px;
+	opacity: 0;
+	transition: all;
+}
+.opacity{
+	opacity: 1;
+	transition: all 1s;
 }
 .fun_facts{
-	background: url(../images/header_bg.jpg);
 	background-attachment: fixed !important;
 	background-repeat: repeat;
 	margin-bottom: 200px;
@@ -290,6 +295,15 @@ color: #fff;
 font-size: 30px;
 font-weight: 550;
 margin-bottom: 10px;	
+}
+.ml-8{
+	margin-left: 80px !important;
+}
+.mr-9{
+	margin-right: 80px !important;
+}
+.pro_img1{
+	margin-right: 80px;
 }
 .single_count p{
 font-family: 'Dosis', sans-serif;
@@ -339,6 +353,9 @@ margin-top: -40px;
 	color: #fff ; 
 	position: absolute;
 	line-height: 100%;
+}
+.pjt2{ 
+	margin-top: 150px;
 }
 
 @media(max-width: 767px){

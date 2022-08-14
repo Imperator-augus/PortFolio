@@ -61,6 +61,28 @@ window.addEventListener('scroll', () => {
   }
 });
 
+let fun_facts = document.querySelector('.fun_facts');
+function myFunction() {
+  let x = fun_facts.getElementsByClassName('pro_link');
+  for( let i = 0; i< x.length; i++){
+    x[i].classList.add('opacity');
+  }
+}
+let pro_link = fun_facts.querySelectorAll('.pro_link');
+let img = fun_facts.querySelectorAll('.imac');
+console.log(pro_link);
+console.log(img);
+for( let z = 0; z< 2; z++ ) {
+  img[z].addEventListener('mouseover', function(){
+    myFunction();
+  });
+  // img[z].addEventListener('mouseout', function(){
+  //   for(let i = 0; i < 2; i++){
+  //     pro_link[i].classList.remove('opacity');
+  //   }
+  // });
+}
+
 
 
 
