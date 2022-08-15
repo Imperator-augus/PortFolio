@@ -80,7 +80,7 @@ for( let z = 0; z< 2; z++ ) {
   //   for(let i = 0; i < 2; i++){
   //     pro_link[i].classList.remove('opacity');
   //   }
-  // });
+  // }); 
 }
 
 
